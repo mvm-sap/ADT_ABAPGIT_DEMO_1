@@ -17,6 +17,6 @@ ENDCLASS.
 
 CLASS zcl_abap_git_demo_1 IMPLEMENTATION.
 METHOD is_sales_order_active.
-
+  rv_sales_order_status = abap_true.
   ENDMETHOD.
 ENDCLASS.
